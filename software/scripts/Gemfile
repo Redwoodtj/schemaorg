@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'json-ld'
-gem 'json-ld-preloaded'
+gem 'json-ld', '>= 3.2.2'
+gem 'json-ld-preloaded', '>= 3.2.1'
 gem 'rdf-rdfa'
-gem 'rdf-microdata'
+gem 'rdf-microdata', '>= 3.3.0'
 gem 'rdf-reasoner'
 gem 'rdf-turtle'
 gem 'rspec'
 gem 'rake'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.15.6'
 gem 'nokogumbo'
 gem 'equivalent-xml'
 
